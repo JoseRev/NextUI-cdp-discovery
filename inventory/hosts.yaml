@@ -1,0 +1,22 @@
+R1:
+  hostname: 10.0.0.1
+  username: cisco
+  password: cisco
+  platform: cisco_ios_telnet
+
+SW1:
+  hostname: 10.0.0.2
+  username: cisco
+  password: cisco
+  platform: cisco_ios_telnet
+CECOM:
+  hostname: 10.0.0.3
+  username: cisco
+  password: cisco
+  platform: cisco_ios_telnet
+R4:
+  hostname: 10.0.0.4
+  username: cisco
+  password: cisco
+  platform: cisco_ios_telnet
+
