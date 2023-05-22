@@ -14,7 +14,7 @@ Further reference: <href src='https://nicegui.io/reference'>https://nicegui.io/r
 
 <img src="/imgs/topologyjs.png">
 
-- NiceGUI- CDP Descovery
+- NiceGUI- CDP Discovery
 
 <img src="/imgs/Sistema_ping.png">
 
