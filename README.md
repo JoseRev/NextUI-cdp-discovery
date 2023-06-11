@@ -8,13 +8,13 @@ Further reference: <href src='https://nicegui.io/reference'>https://nicegui.io/r
 
 - NiceGUI- Upload diagrams
 
-<img src="/img/sistema principal.png">
+<img src="/imgs/sistema principal.png">
 
 - NiceGUI- Diagrama de topologia JS
 
-<img src="/img/topologyjs.png">
+<img src="/imgs/topologyjs.png">
 
-- NiceGUI- CDP Descovery
+- NiceGUI- CDP Discovery
 
-<img src="/img/Sistema_ping.png">
+<img src="/imgs/Sistema_ping.png">
 
