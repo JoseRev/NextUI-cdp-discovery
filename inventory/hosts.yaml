@@ -20,3 +20,14 @@ R4:
   password: cisco
   platform: cisco_ios_telnet
 
+R5:
+  hostname: 10.0.0.5
+  username: cisco
+  password: cisco
+  platform: cisco_ios_telnet
+
+R6:
+  hostname: 10.0.0.6
+  username: cisco
+  password: cisco
+  platform: cisco_ios_telnet

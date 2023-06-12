@@ -41,20 +41,6 @@ var topologyData = {
       "model": "SF200-24(PID:SLM224GT)-VSD",
       "icon": "server",
       "id": 2
-    },
-    {
-      "index": 1,
-      "name": "R2",
-      "hostname": "10.0.0.2",
-      "username": NaN,
-      "password": NaN,
-      "encoded_password": NaN,
-      "tipo": "cdp",
-      "connection": NaN,
-      "serial": NaN,
-      "model": "CISCO2911/K9",
-      "icon": "router",
-      "id": 3
     }
   ],
   "links": [
@@ -75,15 +61,6 @@ var topologyData = {
       "target": 2,
       "tgtDevice": "24b6570ca6ab",
       "tgtIfName": "fa21"
-    },
-    {
-      "id": 2,
-      "source": 1,
-      "srcDevice": "SW1",
-      "srcIfName": "Gi1/0/24",
-      "target": 3,
-      "tgtDevice": "R2",
-      "tgtIfName": "Gi0/1"
     }
   ],
   "nodeSet": []
