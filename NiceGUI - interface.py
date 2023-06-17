@@ -55,7 +55,7 @@ ui.html(pag_example)
 ui.label('Upload or download a topology for visualization in JS format (Ctrl + F5 to reload cache)').classes(' text-h6 font-semibold') 
 with ui.row():
     ui.upload(on_upload=lambda e: save_file(e.content.read().decode('utf-8')), auto_upload=True , label='Upload topology.js')
-    ui.button('Download topology', on_click=lambda: ui.download('/sample/topology.js'))    
+    ui.button('Download topology (JS)', on_click=lambda: ui.download('/sample/topology.js'))    
 
 
 ## Encabezado    
@@ -95,7 +95,7 @@ async def pag_cdp():
     ui.html(pag_CDP)
     ui.label('- Upload or download the inventory for CDP discovery (YAML)').classes(' text-h6 font-semibold') 
     ui.label('- Download topology in (JS)').classes(' text-h6 font-semibold') 
-    ui.label('- Ctrl + F5 to reload cache').classes(' text-h6 font-semibold') 
+    ui.label('- Ctrl + F5 to reload cache').classes(' text-h6 font-semibold').tailwind('drop-shadow', 'font-bold', 'text-red-600') 
     
     
     with ui.row():
